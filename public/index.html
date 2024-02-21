@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Node.jsとMongoDBを使ったTODOアプリ</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form class="task-form">
+        <h4>タスクを追加</h4>
+        <div class="form-control">
+            <input type="text" name="name" class="task-input" placeholder="タスクを入力してください">
+            <button class="btn submit-btn" type="submit">送信</button>
+        </div>
+        <div class="form-alert"></div>
+    </form>
+
+    <section class="tasks-container">
+        <div class="tasks">
+            <!-- apiから取得 -->
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
